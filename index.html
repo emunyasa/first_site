@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name='author' content='Ernest Munyasa'>
+  <meta name='description' content='This is the text that will appear on your search results when you google it'>
+  <title>my first site</title>
+</head>
+<!-- After learning about tables, rearranging the page with tables for fun huh! -->
+
+<body>
+  <table cellspacing="20">
+    <!-- Cellspacing creates the boundary between cells so that if there are no borders, there is a clear distinction of the cells -->
+    <td>
+      <!-- adding and image to the page from and online image location -->
+      <img src="http://www.johnfdoherty.com/wp-content/uploads/2011/07/Titles1.jpg" alt="You really need a title">
+    </td>
+    <td>
+      <h1>A <strong>title</strong> would help &#129300;</h1> <!-- use 'strong' to bold the words -->
+      <p><em>At least we have a title to work with</em></p> <!-- use 'em' to emphasis and have the characters italicized -->
+      <p>I intend to continue doing this until i become better at this.</p>
+      <p>I &#128154; coffee by the way</p>
+    </td>
+  </table>
+  <hr>
+  <h3>My Plan going forward</h3>
+  <ul>
+    <!-- Creating an unordered list of the things i intend to learn -->
+    <li>The complete web bootcamp 2021</li>
+    <li>Python programiming for network engineers</li>
+    <li>Junos Certifications</li>
+    <li>XML</li>
+  </ul>
+  <hr>
+  <h3>Other things which may maybe come up, eg <a href="hobbies.html">Hobbies</a></h3>
+  <p>In case you are curious whose sketchy page this is, view <a href="contact_me.html">my online presence</a></p>
+  <hr>
+  <!-- Inserting tables -->
+
+  <table border="3">
+    <!-- use the table tag -->
+    <thead>
+      <!-- Identifying the header of the table to host the title and also allows it to be styled differently -->
+      <tr>
+        <!-- colspan works the same way as merge and center text in cells -->
+        <th colspan="2">Keeping fit and social plan in this space</th>
+      </tr>
+      <tr>
+        <!-- this heading will have  columns of the header -->
+        <th scope="col">Target year</th>
+        <th scope="col">Activity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- This block will constitute the contents to be displayed on the table -->
+      <tr>
+        <!-- Table row -->
+        <td align="center">2021</td> <!-- table data, can be as many as you want per row -->
+        <td>Keep up with the weekly practice of basketball at Balmoral inspite of winter</td>
+      </tr>
+      <tr>
+        <td align="center">2021</td>
+        <td>City2Surf run</td>
+      </tr>
+      <tr>
+        <td align="center">2021</td>
+        <td>Attend the Australian Grand F1 Prix 2021, Albert Park, Melbourne</td>
+      </tr>
+      <tr>
+        <td align="center">2021</td>
+        <td>See southern lights {Aurora Australis} from Tasmania</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th colspan="2" align="center">&#8674;The footer of my table &#128513;&#8672;</th>
+    </tfoot>
+  </table>
+  <hr>
+  <br> <!-- Create a line break -->
+  <h3>Star Achievements</h3>
+  <!-- Creating a nested table so as to have an ordered way of presenting the star achievements -->
+  <!-- Main table has one row and two columns and the nested tables have two columns and two rows -->
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <table cellspacing="5">
+          <tr>
+            <td>4 stars</td>
+            <td>⭐️⭐️⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>3 stars</td>
+            <td>⭐️⭐️⭐️</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="5">
+          <tr>
+            <td>5 stars</td>
+            <td>⭐️⭐️⭐️⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>4 stars</td>
+            <td>⭐️⭐️⭐️⭐️</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
